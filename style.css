@@ -11,10 +11,12 @@
     justify-content:space-between;
     align-items:center;
     padding:10px 40px;
-     position:sticky;
     background:#000;
     color:#fff;
     border-bottom:4px solid #b30000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo img{
