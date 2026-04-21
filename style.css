@@ -35,7 +35,16 @@ nav a:hover{
 }
 
 .search{
-    font-size:14px;
+    font-size:16px;
+}
+
+.search a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.search a:hover {
+    color: rgb(0, 140, 255);
 }
 
 /* SOCIAL SIDEBAR */
@@ -229,19 +238,6 @@ nav a:hover{
     100%{opacity:0;}
 }
 
-/* CONTACT BUTTON */
-/* .contact-btn{
-    position:absolute;
-    right:20px;
-    top:200px;
-    background:#1e88e5;
-    color:#fff;
-    padding:15px;
-    border-radius:10px;
-    text-align:center;
-    z-index:5;
-} */
-
 /* INFO BAR */
 .info-bar{
     display:flex;
@@ -396,6 +392,27 @@ nav a:hover{
     }
 
 }
+
+
+
+/* WHATSAPP */
+.whatsapp{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25d366;
+  color:#fff;
+  padding:15px;
+  border-radius:50%;
+  font-size:20px;
+}
+
+.whatsapp:hover {
+    color: silver;
+    background-color: whitesmoke;
+}
+
+
 
 /* EXTRA SMALL DEVICES */
 @media (max-width: 480px){
